@@ -1,0 +1,10 @@
+{
+  "name": "lightweight-react",
+  "version": "1.0.0",
+  "description": "This repository serves as a lightweight template for starting React projects with the bare minimum setup.",
+  "main": "src/index.js",
+  "repository": "git@github.com:felipe0liveira/lightwheight-react.git",
+  "author": "Felipe Oliveira <felipe.oliveira@gympass.com>",
+  "license": "MIT",
+  "private": false
+}
