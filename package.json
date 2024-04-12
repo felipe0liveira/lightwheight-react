@@ -1,20 +1,25 @@
 {
-  "name": "lightweight-react",
-  "version": "1.0.0",
-  "description": "This repository serves as a lightweight template for starting React projects with the bare minimum setup.",
-  "main": "src/index.js",
-  "repository": "git@github.com:felipe0liveira/lightwheight-react.git",
-  "author": "Felipe Oliveira <felipe.oliveira@gympass.com>",
-  "license": "MIT",
-  "private": false,
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.12.0",
-    "parcel": "^2.12.0",
-    "prettier": "^3.2.5",
-    "process": "^0.11.10"
-  }
+	"name": "lightweight-react",
+	"version": "1.0.0",
+	"private": false,
+	"description": "This repository serves as a lightweight template for starting React projects with the bare minimum setup.",
+	"source": "src/index.html",
+	"type": "module",
+	"scripts": {
+		"dev": "parcel -p 3000 --no-cache",
+		"build": "rm -rf dist/ && parcel build"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.12.0",
+		"parcel": "^2.12.0",
+		"prettier": "^3.2.5",
+		"process": "^0.11.10"
+	},
+	"repository": "git@github.com:felipe0liveira/lightwheight-react.git",
+	"author": "Felipe Oliveira <felipe.oliveira@gympass.com>",
+	"license": "MIT"
 }
